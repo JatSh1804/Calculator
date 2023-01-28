@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: rgb(144, 144, 225)
+    
+}
+.calculator{
+    margin: 20%;
+}
+input{
+    margin-bottom: 5px;
+}
+.col{
+    padding: 10px;
+    margin: 1px;
+    color: blue;
+    background-color: rgb(236, 210, 248);
+    border-radius: 10%;
+    box-shadow: 10px #888888;
+}
+.col:hover{
+    background-color: rgb(202, 150, 226);
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
